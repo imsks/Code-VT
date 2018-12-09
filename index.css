@@ -1,0 +1,669 @@
+body{
+    width: 100%;
+    font-family: rockwell;
+    scroll-behavior: smooth;
+}
+/* Font Sizes */
+.text-1{
+    font-size: 300%;
+}
+.text-2{
+    font-size: 220%;
+}
+.text-3{
+    font-size: 170%;
+}
+.text-4{
+    font-size: 130%;
+}
+.text-5{
+    font-size: 100%;
+}
+
+/* Navigation Bar Starts*/
+.navbar-nav{
+    margin: 0% 0% 0% 40%;
+}
+
+#nav-link:hover{
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+/* Header */
+.header-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #e5b9ca;
+}
+.header-brand-logo{
+    width: 60%;
+    margin: 3% 0% 10% 12%;
+    box-shadow: 5px 5px 8px grey;
+}
+.header-introduction{
+    margin: 25% 0% 0% -20%;
+}
+.header-about{
+    margin: 5% 0% 0% -20%;
+}
+/* Navigation Bar Ends*/
+
+/* Features */
+.features-content{
+    background-color: #666699;
+    margin: -3% 9%;
+    border-radius: 5px;
+}
+.features-content .row{
+    margin: 0% 0% 0% 0%;
+}
+.features-content .card{
+    margin: 5% 5% 5% 5%;
+    background-color: #333366;
+}
+.features-content .card-title{
+    color:#9999cc;
+}
+.features-content .card-text{
+    color:#ffffff;
+}
+.features-content .feature-button{
+    background-color:#9999cc;
+    color:#ffffff;
+    margin: 0% 0% 5% 35%;
+}
+.features-content .feature-button:hover{
+    background-color:white;
+    color:#333366;
+    margin: 0% 0% 5% 35%;
+    transition: .3s;
+}
+/* Features Ends */
+
+/* About */
+.about-virgin-tutor{
+    background-color: #e5b9ca;
+    margin: 5% 9%;
+    border-radius:5px;
+}
+.about-virgin-tutor .about-heading{
+    padding: 2% 0% 0% 0%;
+}
+.about-virgin-tutor .about-content{
+    margin: 0% 5% 0% 5%;
+}
+.about-virgin-tutor .about-button{
+    background-color:#666699;
+    color:#ffffff;
+    margin: 1% 0% 2% 40%;
+    padding: 1% 5% 1% 5%;
+    font-size: 140%;
+}
+.about-virgin-tutor .about-button .fa{
+    margin: 0% 0% 0% 10%;
+}
+.about-button:hover{
+    background-color:white;
+    color:#333366;
+    transition: .3s;
+}
+/* About Ends*/
+
+/* Services */
+.tutor-service-content{
+    margin: -3% 0% 0% 0%;
+}
+/* Tutor */
+.tutor-service-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #666699;
+}
+.tutor-service-content .tutor-service-image{
+    width: 105%;
+    height: 100%;
+    margin: 0% 0% 0% -3%;
+    border-radius: 5px;
+}
+.tutor-service-content .tutor-service-content{
+    margin: 0% 0% 0% 20%;
+    color: white;
+}
+.tutor-service-content .tutor-service-content-heading{
+    margin: 10% 0% 0% 25%;
+}
+.tutor-service-content ul{
+    list-style-type: none;
+}
+.tutor-service-content ul li{
+    padding: 8% 0% 0% 0%;
+}
+.tutor-service-content ul li .fa{
+    margin: 0% 0% 0% -10%;
+}
+/* Tutor Ends */
+
+/* Parent */
+.parent-service-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #666699;
+}
+.parent-service-content .parent-service-image{
+    width: 105%;
+    height: 100%;
+    margin: 0% 0% 0% -2.7%;
+    border-radius: 5px;
+}
+.parent-service-content .parent-service-content{
+    margin: 0% 0% 0% 20%;
+    color: white;
+}
+.parent-service-content .parent-service-content-heading{
+    margin: 15% 0% 0% 15%;
+}
+.parent-service-content ul{
+    margin: 5% 0% 0% 0%;
+    list-style-type: none;
+}
+.parent-service-content ul li{
+    padding: 8% 0% 0% 0%;
+}
+.parent-service-content ul li .fa{
+    margin: 0% 0% 0% -10%;
+}
+/* Parent Ends */
+/* Hiring */
+.hiring-service-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #666699;
+}
+.hiring-service-content .hiring-service-image{
+    width: 105%;
+    height: 100%;
+    margin: 0% 0% 0% -3%;
+    border-radius: 5px;
+}
+.hiring-service-content .hiring-service-content{
+    margin: 0% 0% 0% 20%;
+    color: white;
+}
+.hiring-service-content .hiring-service-content-heading{
+    margin: 12% 0% 0% 5%;
+}
+.hiring-service-content ul{
+    margin: 5% 0% 0% 0%;
+    list-style-type: none;
+}
+.hiring-service-content ul li{
+    padding: 8% 0% 0% 0%;
+}
+.hiring-service-content ul li .fa{
+    margin: 0% 0% 0% -20%;
+}
+/* Services End */
+
+/* Pricing */
+.pricing-content{
+    margin: 2% 3% 0% 3%;
+}
+.pricing-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #666699;
+    border-radius: 5px;
+}
+/* With Tutor */
+.pricing-content .pricing-tutor-heading{
+    background-color: #9999cc;
+    padding: 1% 20% 1% 25%;
+    margin: 5% 10% 2% 10%;
+    border-radius: 5px;
+    color: rgb(64, 59, 129);
+}
+.pricing-content .pricing-tutor-content{
+    margin: 0% 10% 5% 10%;
+    color: rgb(205, 203, 235);
+}
+.pricing-content .pricing-tutor-link{
+    margin: -3% 0% 4% 0%;
+    color: rgb(205, 203, 235);
+}
+.pricing-content .pricing-tutor-link .link{
+    margin: 2% 0% 0% 35%;
+    color: rgb(205, 203, 235);
+    text-decoration: underline;
+}
+.pricing-content .pricing-tutor-link .link:hover{
+    text-decoration: none;
+}
+/* With Parent */
+.pricing-content .pricing-parent-heading{
+    background-color: #9999cc;
+    padding: 1% 20% 1% 25%;
+    margin: 5% 10% 2% 10%;
+    border-radius: 5px;
+    color: rgb(64, 59, 129);
+}
+.pricing-content .pricing-parent-content{
+    margin: 0% 10% 5% 10%;
+    color: rgb(205, 203, 235);
+}
+.pricing-content .pricing-parent-link{
+    margin: -3% 0% 4% 0%;
+    color: rgb(205, 203, 235);
+}
+.pricing-content .pricing-parent-link .link{
+    margin: 0% 0% 0% 35%;
+    color: rgb(205, 203, 235);
+    text-decoration: underline;
+}
+.pricing-content .pricing-parent-link .link:hover{
+    text-decoration: none;
+}
+/* Pricing Ends */
+
+/* Form Head */
+.form-head{
+    background-color: #66ff99;
+    margin: 2% 40% 0% 40%;
+    border-radius: 5px;
+}
+.form-head .form-heading{
+    margin: 1% 0% 1% 18%;
+    color: #333366;
+}
+/* Form Head End */
+.hr{
+    background-color: #333366;
+    height: 1px;
+}
+/* Form Fill */
+.forms-fill{
+    background-color: #66ff99;
+    margin: 1% 0% 0% 0%;
+}
+.forms-fill .row{
+    margin: 0%;
+}
+/* Tutor */
+.forms-fill .form-fill-tutor-head{
+    padding: 1% 15% 1% 20%;
+    margin: 3% 12% 0% 12%;
+    color: #333366;
+}
+.tutor-form-fill label{
+    color:#333366;
+    font-size: 150%;
+    margin: 2% 0% 0% 15%;
+}
+.tutor-form-fill input[type=text]{
+    margin: 0% 0% 0% 15%;
+    padding: 2% 40% 2% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.tutor-form-fill select{
+    margin: 0% 0% 0% 15%;
+    padding: 2% 31% 2% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 10px;
+}
+.tutor-form-fill .select-tutor-fav-subject{
+    margin: 0% 0% 0% 15%;
+    padding: 2% 29% 2% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color:#333366;
+    font-size: 120%;
+}
+.tutor-form-fill input[type=submit]{
+    margin: 5% 0% 5% 47%;
+    padding: 2% 10% 2% 10%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.tutor-form-fill input[type=submit]:hover{
+    background-color: white;
+    color: #333366;
+    transition: 0.3s;
+}
+/* Parent */
+.forms-fill .form-fill-parent-head{
+    padding: 1% 15% 1% 20%;
+    margin: 3% 12% 0% 12%;
+    color: #333366;
+}
+.parent-form-fill label{
+    color:#333366;
+    font-size: 150%;
+    margin: 2% 0% 0% 15%;
+}
+.parent-form-fill input[type=text]{
+    margin: 0% 0% 0% 15%;
+    padding: 2% 40% 2% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.parent-form-fill select{
+    margin: 0% 0% 0% 15%;
+    padding: 2% 41% 2% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 10px;
+}
+.parent-form-fill .select-parent-fav-subject{
+    margin: 0% 0% 0% 15%;
+    padding: 2% 32% 2% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color:#333366;
+    font-size: 120%;
+}
+.parent-form-fill input[type=submit]{
+    margin: 5% 0% 5% 47%;
+    padding: 2% 10% 2% 10%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+}
+.parent-form-fill input[type=submit]:hover{
+    background-color: white;
+    color: #333366;
+    transition: 0.3s;
+}
+/* Form Ends */ 
+
+/* Free Tutions */ 
+.free-tution-content .row{
+    margin: 2% 0% 0% 0%;
+}
+.free-tution-content .free-tuition-service-image{
+    width: 105%;
+    height: 100%;
+    margin: 0% 0% 0% 2%;
+    border-radius: 5px;
+}
+.free-tution-content .free-tution-service-content{
+    margin: 10% 0% 0% 30%;
+    color: #666699;;
+}
+.free-tution-content .free-tution-service-content-heading{
+    margin: 10% 0% 0% -10%;
+    font-size: 160%;
+}
+.free-tution-content ul{
+    list-style-type: none;
+}
+.free-tution-content ul li{
+    padding: 8% 0% 0% 0%;
+}
+.free-tution-content ul li .fa{
+    margin: 0% 0% 0% -18%;
+}
+/* Free Tutions Ends */ 
+
+/* Free Counselling */
+.free-counselling-content{
+    background-color: #66ff99;
+    margin: 2% 10% 0% 10%;
+    border-radius: 10px;
+    color: #333366;
+}
+.need-help-form{
+    margin: 0% 0% 5% 0%;
+}
+.need-help-form label{
+    color:#333366;
+    font-size: 100%;
+    margin: 0% 0% 0% 0%;
+}
+.need-help-form input[type=text]{
+    margin: 0% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.need-help-form textarea{
+    width: 86%;
+    margin: 0% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 10px;
+}
+.need-help-form input[type=submit]{
+    margin: 10% 0% 5% 0%;
+    padding: 9% 22% 9% 22%;
+    background-color: #9999cc;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 150%;
+    border-radius: 5px;
+}
+.need-help-form input[type=submit]:hover{
+    background-color: white;
+    color: #333366;
+    transition: 0.3s;
+}
+/* Free Counselling Ends*/
+
+/* Our Future Starts */
+.our-future-content .row{
+    margin: 2% 2% 0% 2%;
+    padding: 0% 0% 8% 0%;
+    background-color: #9999cc;
+    border-radius:10px;
+    color: #333366;
+}
+.our-future-content .video-content{
+    width: 110%;
+    height: 137%;
+    border-radius: 10px;
+    margin: 0% 0% 0% -2.5%;
+    position:inherit;
+}
+.our-future-heading{
+    margin: 10% 0% 0% 0%;
+}
+.our-future-content ul{
+    list-style-type: none;
+    margin: 5% 0% 5% 5%;
+}
+.our-future-content li{
+    margin: 2% 0% 0% 0%;
+}
+/* Our Future NEVER ENDS */
+/* Footer Ends */
+.footer-content .row{
+    background-color: #339999;
+    margin: 2% 0% 0% 0%;
+    color: #333366;
+}
+
+.footer-content .footer-our-vison{
+    margin: 2% 0% 5% 5%;
+}
+.footer-content .footer-links .footer-link-heading{
+    margin: 25% 0% 5% 22%;
+}
+.footer-content .footer-links ul{
+    list-style-type: none;
+    margin: 0% 0% 0% 0%;
+}
+.footer-content .footer-links ul li{
+    margin: 10% 0% 0% 0%;
+}
+.footer-content .footer-links a{
+    color: #333366;
+    text-decoration: none;
+}
+/* Email signup  Starts*/
+.footer-content .email-signup{
+    margin: 13% 0% 0% 0%;
+}
+.footer-content .email-signup .email-signup-heading{
+    margin: 0% 0% 0% 10%;
+} 
+.footer-content .email-signup input[type=email]{
+    margin: 0% 0% 0% 10%;
+    padding: 1% 10% 1% 2%;
+    background-color: #e5b9ca;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.footer-content .email-signup input[type=submit]{
+    margin: 0% 0% 0% 20%;
+    padding: 4% 10% 4% 10%;
+    background-color: #e5b9ca;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.footer-content .email-signup input[type=submit]:hover{
+    background-color: white;
+    color: #333366;
+    transition: 0.3s;
+}
+/* Email signup Ends*/
+/* Social Links Starts */
+.footer-social .row{
+    margin: 1% 0% 0% 30%;
+}
+.footer-social .text-center{
+    margin: 3% 0% 0% 0%;
+}
+.footer-social .fa{
+    font-size: 250%;
+    color: #333366;
+}
+.footer-social .social-button {
+    margin: 0% 0% 0% -8%;
+}
+/* Social Buttons Ends*/
+/* Copyright Starts*/
+.footer-content .copyright {
+    margin: 0% 0% 0% 37%;
+}
+
+
+/* Media Query */
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    /* Font Sizes */
+    .text-1{
+        font-size: 300%;
+    }
+    .text-2{
+        font-size: 220%;
+    }
+    .text-3{
+        font-size: 170%;
+    }
+    .text-4{
+        font-size: 130%;
+    }
+    .text-5{
+        font-size: 100%;
+    }
+    /* Navigation Bar */
+    .navbar{
+        background-color: #e5b9ca;
+        box-shadow: 3px 3px 2px grey;
+    }
+    .navbar-nav{
+        margin: 0% 0% 0% 40%;
+    }
+    .navbar-toggler{
+        margin: 5% 0% 2% 40%;
+    }
+    .nav-logo{
+        margin: 0% 0% -3% 10%;
+        width: 90%;
+    }
+    /* Header */
+    .header-content .row{
+        margin: 0% 0% 0% 0%;
+        background-color: #e5b9ca;
+    }
+    .header-brand-logo{
+        width: 90%;
+        margin: 10% 0% 0% 5%;
+        box-shadow: 5px 5px 8px grey;
+    }
+    .header-introduction{
+        margin: 10% 0% 0% 10%;
+    }
+    .header-about{
+        margin: 5% 0% 0% 5%;
+    }
+    /* Features */
+    .features-content{
+        background-color: #666699;
+        margin: 0% 0% 0% 0%;
+        border-radius: 5px;
+    }
+    .features-content .card{
+        margin: 5% 0% 5% 0%;
+        width: 100%;
+        background-color: #333366;
+    }
+    .features-content .card-title{
+        color:#9999cc;
+        margin: 0% 0% 5% 0%;
+    }
+    .features-content .card-text{
+        color:#ffffff;
+    }
+    .features-content .feature-button{
+        background-color:#9999cc;
+        color:#ffffff;
+        margin: 0% 0% 5% 35%;
+    }
+    .features-content .feature-button:hover{
+        background-color:white;
+        color:#9999cc;
+        margin: 0% 0% 5% 35%;
+        transition: .3s;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {
+    Navigation Bar 
+    .nav-logo{
+        margin: -3% 0% -3% -4%;
+        width: 150%;
+    }
+} 
+*/
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+    992/1200px
+} 
+*/

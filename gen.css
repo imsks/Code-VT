@@ -1,0 +1,242 @@
+/*
+           Name - Sachin Kr. Shukla
+           Name of venture - Virgin Tutor
+           Media Query used
+
+           Extra small screens(576px) -  586th line
+           Small screens(768px) - 1180th line
+           Medium screens(992px) - 1777th line
+
+*/
+
+@media only screen and (min-width: 1200px){
+    body{
+    width: 100%;
+    font-family: rockwell;
+    scroll-behavior: smooth;
+}
+/* Font Sizes */
+.text-1{
+    font-size: 300%;
+}
+.text-2{
+    font-size: 220%;
+}
+.text-3{
+    font-size: 170%;
+}
+.text-4{
+    font-size: 130%;
+}
+.text-5{
+    font-size: 100%;
+}
+
+/* Navigation Bar Starts*/
+
+
+#nav-link:hover{
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+/* Header */
+.header-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #e5b9ca;
+}
+.header-brand-logo{
+    width: 70%;
+    margin: 3% 0% 10% 12%;
+    box-shadow: 5px 5px 8px grey;
+}
+.header-introduction{
+    margin: 25% 0% 0% -20%;
+}
+.header-about{
+    margin: 5% 0% 0% -20%;
+}
+/* Navigation Bar Ends*/
+
+
+/* Footer Starts */
+.footer-content .footer-our-vison{
+    margin: 5% 5% 0% 5%;
+}
+.footer-content .footer-links .footer-link-heading{
+    margin: 60% 0% 5% 22%;
+}
+.footer-content .footer-links ul{
+    list-style-type: none;
+    margin: 15% 0% 0% 0%;
+}
+.footer-content .footer-links ul li{
+    margin: 5% 0% 0% 0%;
+}
+.footer-content .footer-links a{
+    text-decoration: none;
+}
+/* Email signup  Starts*/
+.footer-content .email-signup{
+    margin: 25% 0% 0% 0%;
+}
+.footer-content .email-signup .email-signup-heading{
+    margin: 0% 0% 0% 10%;
+} 
+.footer-content .email-signup input[type=email]{
+    margin: 0% 0% 0% 10%;
+    padding: 1% 10% 1% 2%;
+    background-color: #df88a9;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.footer-content .email-signup input[type=submit]{
+    margin: 0% 0% 0% 20%;
+    padding: 4% 10% 4% 10%;
+    background-color: #df88a9;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.footer-content .email-signup input[type=submit]:hover{
+    background-color: white;
+    color: #333366;
+    transition: 0.3s;
+}
+/* Email signup Ends*/
+/* Copyright Starts*/
+.footer-content .copyright-info{
+    margin: 20% 85% 0% 87%;
+    white-space: nowrap;
+}
+.footer-content .copyright-text{
+    margin: 0% 0% -60% 0%;
+}
+.footer-content .social-section{
+    margin: -10% 100% 20% 100%;
+}
+.footer-content .social-button .fa{
+    font-size: 200%;
+    padding: 0% 0% 10% 10%;
+    margin:-60% 0% 0% 0%;
+}
+
+}
+/* 
+                                        Media Query               
+*/
+
+@media only screen and (max-width: 768px) {
+body{
+width: 100%;
+font-family: rockwell;
+scroll-behavior: smooth;
+}
+/* Font Sizes */
+.text-1{
+    font-size: 300%;
+}
+.text-2{
+    font-size: 220%;
+}
+.text-3{
+    font-size: 170%;
+}
+.text-4{
+    font-size: 130%;
+}
+.text-5{
+    font-size: 100%;
+}
+
+/* Navigation Bar Starts*/
+.navbar-toggler{
+    margin: 1% 0% 1% 45%;
+}
+
+/* Header */
+.header-content .row{
+    margin: 0% 0% 0% 0%;
+    background-color: #e5b9ca;
+}
+.header-brand-logo{
+    width: 90%;
+    margin: 30% 3% 10% 6%;
+    box-shadow: 5px 5px 8px grey;
+}
+.header-introduction{
+    margin: 0% 0% 0% 0%;
+}
+.header-about{
+    margin: 5% 5% 10% 0%;
+}
+/* Navigation Bar Ends*/
+
+/* Footer Starts */
+.footer-content .footer-our-vison{
+    margin: 5% 10% 0% 15%;
+}
+.footer-content .footer-links .footer-link-heading{
+    margin: 5% 35% 0% 40%;
+    white-space: nowrap;
+}
+.footer-content .footer-links ul{
+    list-style-type: none;
+    margin: 0% 0% 0% 27%;
+}
+.footer-content .footer-links ul li{
+    margin: 5% 0% 0% 0%;
+}
+.footer-content .footer-links a{
+    text-decoration: none;
+}
+/* Email signup  Starts*/
+.footer-content .email-signup{
+    margin: 10% 20% 0% 20%;
+    white-space: nowrap;
+}
+.footer-content .email-signup .email-signup-heading{
+    margin: 0% 0% 0% 10%;
+} 
+.footer-content .email-signup input[type=email]{
+    margin: 5% 0% 0% -20%;
+    padding: 1% 10% 1% 10%;
+    background-color: #df88a9;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.footer-content .email-signup input[type=submit]{
+    margin: 5% 0% 0% 20%;
+    padding: 4% 20% 4% 20%;
+    background-color: #df88a9;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    color: #333366;
+    font-size: 120%;
+    border-radius: 5px;
+}
+.footer-content .email-signup input[type=submit]:hover{
+    background-color: white;
+    color: #333366;
+    transition: 0.3s;
+}
+/* Email signup Ends*/
+/* Copyright Starts*/
+.footer-content .copyright-info{
+    margin: 10% 0% 0% 18%;
+    white-space: nowrap;
+}
+.footer-content .copyright-text{
+    margin: 30% 0% -30% 0%;
+}
+.footer-content .social-section{
+    margin: 5% 0% 20% 25%;
+}
+.footer-content .social-button .fa{
+    font-size: 200%;
+    padding: 0% 0% 0% 0%;
+    margin:0% 0% 0% 5%;
+}
